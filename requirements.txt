@@ -1,0 +1,6 @@
+coloredlogs>=15.0
+matplotlib>=3.3.0
+pandas>=1.1.0
+pytz>=2020.4
+requests>=2.25.0
+tzlocal>=2.1
