@@ -6,13 +6,18 @@ The `blueair` package contains an unofficial Python client for the Blueair air p
 Installation
 ------------
 
-First of all, ensure you are running Python 3.6 or newer. Installation of the package is as simple as running:
+First of all, ensure you are running Python 3.7 or newer. Installation of the package is as simple as running:
 
 .. code-block:: console
 
    $ pip install blueair
 
 After running this command the `blueair` package is available for importing in Python, and the command line interface can be accessed by running `python -m blueair`.
+
+Compatibility
+-------------
+
+This package is inteded to be used with Python 3.7 or newer. It has been annotated with type extensions and supports PEP 561 typed packages.
 
 Disclaimer
 ----------

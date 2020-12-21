@@ -53,8 +53,11 @@ setup(
             "blueair = blueair.cli:run",
         ]
     },
+    package_data=[
+        "blueair": ["py.typed"]
+    ],
     install_requires=get_requirements("requirements.txt"),
-    python_requires=">=3.6",
+    python_requires=">=3.7",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Environment :: Console",
@@ -71,7 +74,6 @@ setup(
         "Operating System :: Unix",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
