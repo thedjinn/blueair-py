@@ -13,8 +13,8 @@ build:
 	python setup.py sdist bdist_wheel
 
 publish: build
-	git push origin
-	git push origin --tags
 	$(MAKE) clean build
 	twine upload dist/*
 	$(MAKE) clean
+	$(eval TAG=v$(shell python -c "from blueair import __version__; print(__version__)"))
+	git tag $(TAG)
