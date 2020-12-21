@@ -4,7 +4,8 @@ import base64
 import logging
 import requests
 
-from typing import Any, Dict, List, Mapping, TypedDict, Union
+from typing import Any, Dict, List, Mapping, Union
+from typing_extensions import TypedDict
 
 logger = logging.getLogger(__name__)
 
