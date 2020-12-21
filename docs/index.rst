@@ -5,12 +5,6 @@
 
 .. include:: ../README.rst
 
-User documentation
-------------------
-
-.. toctree::
-   readme.rst
-
 API documentation
 -----------------
 
