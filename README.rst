@@ -17,7 +17,7 @@ After running this command the `blueair` package is available for importing in P
 Compatibility
 -------------
 
-This package is inteded to be used with Python 3.7 or newer. It has been annotated with type extensions and supports PEP 561 typed packages.
+This package is intended to be used with Python 3.7 or newer. It has been annotated with type extensions and supports PEP 561 typed packages.
 
 Disclaimer
 ----------
