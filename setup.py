@@ -53,9 +53,9 @@ setup(
             "blueair = blueair.cli:run",
         ]
     },
-    package_data=[
+    package_data={
         "blueair": ["py.typed"]
-    ],
+    },
     install_requires=get_requirements("requirements.txt"),
     python_requires=">=3.7",
     classifiers=[
