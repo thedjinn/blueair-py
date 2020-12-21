@@ -19,14 +19,14 @@ Compatibility
 
 This package is intended to be used with Python 3.7 or newer. It has been annotated with type extensions and supports PEP 561 typed packages.
 
+The client has only been tested using a Blueair Classic 280i air purifier located somewhere in Europe. It may or may not work for different models or locations.
+
 Disclaimer
 ----------
 
 The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
 
 This package and its authors are not affiliated by Blueair. For support regarding this package, please do not contact Blueair but instead file an issue using the package repository's issue tracker.
-
-This package has only been tested using a Blueair Classic 280i air purifier located somewhere in Europe. It may or may not work for different models or locations.
 
 Acknowledgements
 ----------------
