@@ -45,7 +45,7 @@ class BlueAir(object):
         To optimize multiple instantiatons of this class a server hostname and
         authentication token can be provided. This will cause the client to
         reuse a session from a previously initialized client and saves up to
-        two APi calls.
+        two API calls.
         """
         self.username = username
         self.password = password
